@@ -506,6 +506,36 @@ function aaig(){
 				'show-scale-field': false,
 				'trigger-keyup-text-fields': true,
 				'trigger-change-line-break-mode-field': true
+			},
+			'aai2_ds': {
+				'export-format': 'png',
+				'line-break-mode-options-suffix-class': '-ds',
+				'scale': {
+					'value': 1
+				},
+				'font-3ds': 'Pixel Arial',
+				'font-size': 8,
+				'margin-left': {
+					'value': 2
+				},
+				'margin-top': {
+					'value': 2
+				},
+				'line-height': {
+					'value': 1
+				},
+				'letter-spacing': {
+					'min': 1,
+					'max': 3,
+					'value': 1
+				},
+				'conteiner-class': 'logic-button-sprites-ds',
+				'conteiner-text-width': 76,
+				'comparative-image-src': 'images/logic_button_bg_filled_aai2_ds.png',
+				'show-font-3ds-field': false,
+				'show-scale-field': false,
+				'trigger-keyup-text-fields': true,
+				'trigger-change-line-break-mode-field': true
 			}
 		},
 		'logic-title-conteiner': {
@@ -1000,7 +1030,8 @@ function aaig(){
 		$('#proof-profile-title-text-batch-mode').html('Attorney\'s Badge\nCindy\'s Autopsy Report\nStatue / The Thinker\nPassport');
 		$('#proof-profile-subtitle-text').html('Type: Weapons\nSubmitted as evidence by Prosecutor Payne.');
 		$('#proof-profile-description-text').html('Time of death: 9/5 at 9:00 PM.\nCause: single blunt force trauma. Death was instantaneous.');
-		$('#logic-button-text').html("Victim was a\ndetective");
+		$('#logic-button-text').attr('value', 'Victim was a\ndetective');
+		$('#logic-button-text').attr('value', 'Ruptured\nballoon');
 		$('#logic-title-text').attr('value', "The killer's goal");
 		$('#logic-title-text-batch-mode').html("The killer's goal\nSigns of a struggle\nMotive: Theft (?)");
 		$('#logic-description-text').html('Why did this happen in my\noffice? What was the killer\nafter?');
